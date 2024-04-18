@@ -64,3 +64,31 @@ console.log(`Test result: ${result}`);
 console.log(`Test result: `, item1);
 console.log(` this is actual ${actual}, this is expected ${expected}`);
 console.log(`==================`);
+
+afterEach();
+
+//! STORY-3
+console.log(`Test 3`);
+console.log(`==================`);
+console.log(
+  ` check if Basket is full using checkFull and expect basket is full and return True`
+);
+//Arrange
+basket.addItem(item1);
+basket.addItem(item1);
+
+expected = true;
+actual, result;
+
+//Act
+
+actual = basket.checkFull(basket.basketItems); //* Call the unit under test
+
+//Assert
+result = assertEquals(actual, expected);
+// result = assertNaN(actual);
+
+//Report
+console.log(`Test result: ${result}`);
+console.log(` this is actual ${actual}, this is expected ${expected}`);
+console.log(`==================`);
