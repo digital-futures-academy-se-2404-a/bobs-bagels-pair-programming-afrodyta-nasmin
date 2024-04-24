@@ -1,0 +1,20 @@
+{
+  "name": "bobs-bagels-pair-programming-afrodyta-nasmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-futures-academy-se-2404-a/bobs-bagels-pair-programming-afrodyta-nasmin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digital-futures-academy-se-2404-a/bobs-bagels-pair-programming-afrodyta-nasmin/issues"
+  },
+  "homepage": "https://github.com/digital-futures-academy-se-2404-a/bobs-bagels-pair-programming-afrodyta-nasmin#readme"
+}
